@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="menue_item_array">
+		<item>main_menue_projects</item>
+		<item>add_server</item>
+<!-- 		<item>leftnd_gfwl</item> -->
+		<item>leftmenu_settings</item>
+		<item>main_menue_help</item>
+	</string-array>
+	<string-array name="menue_tool_array">
+		<item>layer</item>
+<!-- 		<item>gps_position</item> -->
+		<item>zoom_to_bounds</item>
+		<item>new_</item>
+		<item>navi</item>
+		<item>kriging</item>
+<!-- 		<item>edit</item> -->
+	</string-array>
+	<array name="ns_menu_items_icon">
+		<item>ic_folder_url_history_icon</item>
+		<item>ic_folder</item>
+<!-- 		<item>ic_places_folder</item> -->
+		<item>maps_android_128</item>
+		<item>ic_folders_default_metro</item>
+	</array>
+	<array name="ns_menu_tools_icon">
+		<item>maps_android_128</item>
+<!-- 		<item>ic_navdraw_gps</item> -->
+		<item>ic_zoom7</item>
+		<item>ic_menu_editor_new</item>
+		<item>ic_navdraw_gps</item>
+		<item>interpolation</item>
+<!-- 		<item>ic_menu_editor_new</item> -->
+	</array>
+
+</resources>

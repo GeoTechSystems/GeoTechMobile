@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/geotechmobilesettingsactivity_tv_header"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="15dp"
+		android:gravity="center"
+		android:text="@string/geotechmobilesettingsactivity_tv_header_text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/text_color"
+		android:textSize="25sp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+
+		<Switch
+			android:id="@+id/geotechmobilesettingsactivity_switch_osm"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="5dp"
+			android:text="@string/osm_switch"
+			android:textColor="@color/button_text_black"
+			android:textOff="@string/geotechmobilesettingsactivity_switch_off"
+			android:textOn="@string/geotechmobilesettingsactivity_switch_on"
+			android:textSize="@dimen/text_size_18dp" />
+
+		<TextView
+			android:id="@+id/geotechmobilesettingsactivity_tv_switch_osm"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_vertical"
+			android:layout_marginRight="15dp"
+			android:gravity="right|center_vertical"
+			android:text="@string/geotechmobilesettingsactivity_tv_switch_osm_text"
+			android:textSize="@dimen/text_size_20dp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+		<Switch
+			android:id="@+id/geotechmobilesettingsactivity_switch_auto_sync"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="10dp"
+			android:text="@string/auto_sync_switch"
+			android:textColor="@color/button_text_black"
+			android:textOff="@string/geotechmobilesettingsactivity_switch_off"
+			android:textOn="@string/geotechmobilesettingsactivity_switch_on"
+			android:textSize="@dimen/text_size_18dp" />
+
+		<TextView
+			android:id="@+id/geotechmobilesettingsactivity_tv_switch_auto_sync"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginRight="15dp"
+			android:gravity="right|center_vertical"
+			android:text="@string/geotechmobilesettingsactivity_tv_switch_auto_sync_text"
+			android:textSize="@dimen/text_size_20dp" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Switch
+	        android:id="@+id/geotechmobilesettingsactivity_switch_markers"
+	        android:layout_width="300dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/geotechmobilesettingsactivity_markers"
+	        android:textColor="@color/button_text_black"
+			android:textOff="@string/geotechmobilesettingsactivity_switch_off"
+			android:textOn="@string/geotechmobilesettingsactivity_switch_on"
+	        android:textSize="@dimen/text_size_18dp" />
+
+	    <TextView
+	        android:id="@+id/geotechmobilesettingsactivity_tv_switch_markers"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="15dp"
+	        android:gravity="right|center_vertical"
+	        android:text="@string/geotechmobilesettingsactivity_tv_switch_markers"
+	        android:textSize="@dimen/text_size_20dp" />
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Switch
+	        android:id="@+id/geotechmobilesettingsactivity_switch_notSyncCyan"
+	        android:layout_width="300dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/geotechmobilesettingsactivity_notSyncCyan_title"
+	        android:textColor="@color/button_text_black"
+			android:textOff="@string/geotechmobilesettingsactivity_switch_off"
+			android:textOn="@string/geotechmobilesettingsactivity_switch_on"
+	        android:textSize="@dimen/text_size_18dp" />
+
+	    <TextView
+	        android:id="@+id/geotechmobilesettingsactivity_tv_notSyncCyan"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="15dp"
+	        android:gravity="right|center_vertical"
+	        android:text="@string/geotechmobilesettingsactivity_notSyncCyan_text"
+	        android:textSize="@dimen/text_size_20dp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+		<Button
+			android:id="@+id/geotechmobilesettingsactivity_button_resetServer"
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/button_color"
+			android:text="@string/geotechmobilesettingsactivity_button_resetServer_text"
+			android:textColor="@color/button_text"
+			android:textSize="@dimen/text_size_18dp" />
+
+		<TextView
+			android:id="@+id/geotechmobilesettingsactivity_tv_button_resetserver"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginRight="15dp"
+			android:gravity="center_vertical|right"
+			android:text="@string/geotechmobilesettingsactivity_tv_button_resetserver_text"
+			android:textSize="@dimen/text_size_20dp" />
+	</LinearLayout>
+
+</LinearLayout>

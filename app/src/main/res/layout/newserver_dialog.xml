@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/newserver_dialog_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="5dp"
+		android:text="@string/addLayerAcitivty_popup_text_title"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="30sp" />
+
+	<View
+		android:id="@+id/SplitLine_ver1"
+		android:layout_width="fill_parent"
+		android:layout_height="3dp"
+		android:layout_below="@id/newserver_dialog_title"
+		android:background="@color/line_color" />
+
+	<EditText
+	    android:id="@+id/newserver_dialog_servername_edittext"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/newserver_dialog_servername_text"
+	    android:layout_marginLeft="20dp"
+	    android:layout_toRightOf="@+id/newserver_dialog_servername_text"
+	    android:ems="10"
+	    android:inputType="text" >
+
+		<requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/newserver_dialog_serverurl_edittext"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/newserver_dialog_servername_edittext"
+	    android:layout_alignTop="@+id/newserver_dialog_serverurl_text"
+	    android:ems="10"
+	    android:inputType="textUri" />
+
+	<TextView
+		android:id="@+id/newserver_dialog_serverurl_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignRight="@+id/newserver_dialog_servername_text"
+		android:layout_below="@+id/newserver_dialog_servername_edittext"
+		android:layout_marginTop="5dp"
+		android:text="@string/newserver_dialog_serverurl_textfortv"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+	    android:id="@+id/newserver_dialog_optionaleparameter"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/newserver_dialog_serverurl_edittext"
+	    android:layout_margin="15dp"
+	    android:text="@string/newserver_dialog_optionaleparameter_text"
+	    android:textSize="16sp" />
+
+	<TextView
+		android:id="@+id/newserver_dialog_username_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/newserver_dialog_optionaleparameter"
+		android:layout_marginLeft="5dp"
+		android:text="@string/newserver_dialog_username_textfortv"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/newserver_dialog_servername_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignRight="@+id/newserver_dialog_username_text"
+		android:layout_below="@+id/SplitLine_ver1"
+		android:layout_marginTop="15dp"
+		android:text="@string/newserver_dialog_servername_textfortv"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+	    android:id="@+id/newserver_dialog_username_edittext"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/newserver_dialog_serverurl_edittext"
+	    android:layout_alignTop="@+id/newserver_dialog_username_text"
+	    android:ems="10"
+	    android:inputType="text" />
+
+	<TextView
+		android:id="@+id/newserver_dialog_passwort_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignRight="@+id/newserver_dialog_username_text"
+		android:layout_below="@+id/newserver_dialog_username_edittext"
+		android:layout_marginTop="5dp"
+		android:text="@string/newserver_dialog_password_textfortv"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+	    android:id="@+id/newserver_dialog_passwort_edittext"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/newserver_dialog_username_edittext"
+	    android:layout_alignTop="@+id/newserver_dialog_passwort_text"
+	    android:ems="10"
+	    android:inputType="textPassword" />
+
+</RelativeLayout>

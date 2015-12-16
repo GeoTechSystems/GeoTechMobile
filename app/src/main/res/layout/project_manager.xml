@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal" >
+
+	<LinearLayout
+		android:id="@+id/project_manager_menu"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="@android:color/background_dark"
+		android:divider="@drawable/divider"
+		android:dividerPadding="30dip"
+		android:orientation="vertical"
+		android:paddingBottom="20dip"
+		android:paddingTop="20dip" >
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:id="@+id/project_manager_projectlist"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

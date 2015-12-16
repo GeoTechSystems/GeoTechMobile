@@ -1,0 +1,106 @@
+OAR	name_oar	ATR_1	Name_1	ATR_2	Name_2	ATR_3	Name_3	TEXT
+41005	Tagebau, Grube, Steinbruch	ZUS 2100	Außer Betrieb, stillgelegt, verlassen					OA 41005    ZUS 2100
+41006	Fläche gemischter Nutzung							OA 41006
+41007	Fläche besonderer funktionaler Prägung							OA 41007
+41008	Sport-, Freizeit- und Erholungsfläche							OA 41008
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4100	Sportanlage					OA 41008    FKT 4100
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4110	Golfplatz					OA 41008    FKT 4110
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4210	Zoo					OA 41008    FKT 4210
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4220	Safaripark, Wildpark					OA 41008    FKT 4220
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4230	Freizeitpark					OA 41008    FKT 4230
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4240	Freilichttheater					OA 41008    FKT 4240
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4320	Schwimmbad, Freibad					OA 41008    FKT 4320
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4330	Campingplatz					OA 41008    FKT 4330
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4400	Grünanlage					OA 41008    FKT 4400
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4420	Park					OA 41008    FKT 4420
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4440	Kleingarten					OA 41008    FKT 4440
+41009	Friedhof							OA 41009
+42009	Platz	FKT 5130	Fußgängerzone					OA 42009    FKT 5130
+42009	Platz	FKT 5330	Raststätte					OA 42009    FKT 5330
+42009	Platz	FKT 5320	Rastplatz					OA 42009    FKT 5320
+42009	Platz	FKT 5310	Parkplatz					OA 42009    FKT 5310
+42009	Platz	FKT 5350	Festplatz					OA 42009    FKT 5350
+42009	Platz							OA 42009
+42015	Flugverkehr							OA 42015
+42016	Schiffsverkehr	FKT 5610	Hafenanlage					OA 42016    FKT 5610
+41003	Halde							OA 41003
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4250	Freilichtmuseum					OA 41008    FKT 4250
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4260	Autokino, Freilichtkino					OA 41008    FKT 4260
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4290	Modellflugplatz					OA 41008    FKT 4290
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4310	Wochenend- und Ferienhausfläche					OA 41008    FKT 4310
+41001	Wohnbaufläche							OA 41001
+41002	Industrie- und Gewerbefläche	FKT 1790	Werft					OA 41002    FKT 1790
+41002	Industrie- und Gewerbefläche							OA 41002
+41002	Industrie- und Gewerbefläche	FKT 1450	Ausstellung, Messe					OA 41002    FKT 1450
+41002	Industrie- und Gewerbefläche	FKT 1490	Gärtnerei					OA 41002    FKT 1490
+41002	Industrie- und Gewerbefläche	FKT 2510	Förderanlage					OA 41002    FKT 2510
+41002	Industrie- und Gewerbefläche	FKT 2520	Wasserwerk					OA 41002    FKT 2520
+41002	Industrie- und Gewerbefläche	FKT 2530	Kraftwerk					OA 41002    FKT 2530
+41002	Industrie- und Gewerbefläche	FKT 2540	Umspannstation					OA 41002    FKT 2540
+41002	Industrie- und Gewerbefläche	FKT 2550	Raffinerie					OA 41002    FKT 2550
+41002	Industrie- und Gewerbefläche	FKT 2570	Heizwerk					OA 41002    FKT 2570
+41002	Industrie- und Gewerbefläche	FKT 2610	Kläranlage, Klärwerk					OA 41002    FKT 2610
+41002	Industrie- und Gewerbefläche	FKT 2620	Abfallbehandlungsanlage					OA 41002    FKT 2620
+41002	Industrie- und Gewerbefläche	FKT 2630	Deponie (oberirdisch)					OA 41002    FKT 2630
+41002	Industrie- und Gewerbefläche	FKT 2630	Deponie (oberirdisch)	ZUS 2100	Außer Betrieb, stillgelegt, verlassen			OA 41002   FKT 2630   ZUS 2100
+41002	Industrie- und Gewerbefläche	FKT 2640	Deponie (untertägig)					OA 41002    FKT 2640
+41002	Industrie- und Gewerbefläche	FKT 2640	Deponie (untertägig)	ZUS 2100	Außer Betrieb, stillgelegt, verlassen			OA 41002   FKT 2640   ZUS 2100
+41004	Bergbaubetrieb	ZUS 2100	Außer Betrieb, stillgelegt, verlassen					OA 41004    ZUS 2100
+41005	Tagebau, Grube, Steinbruch							OA 41005
+42016	Schiffsverkehr	FKT 5620	Schleuse (Landfläche)					OA 42016    FKT 5620
+43001	Landwirtschaft	VEG 1010	Ackerland					OA 43001    VEG 1010
+43001	Landwirtschaft	VEG 1012	Hopfen					OA 43001    VEG 1012
+43001	Landwirtschaft	VEG 1020	Grünland					OA 43001    VEG 1020
+43002	Wald	VEG 1100	Laubholz					OA 43002    VEG 1100
+43002	Wald	VEG 1300	Laub- und Nadelholz					OA 43002    VEG 1300
+43002	Wald	VEG 1200	Nadelholz					OA 43002    VEG 1200
+43001	Landwirtschaft	VEG 1050	Obstplantage					OA 43001    VEG 1050
+43001	Landwirtschaft	VEG 1040	Weingarten					OA 43001    VEG 1040
+43003	Gehölz							OA 43003
+43004	Heide							OA 43004
+43005	Moor							OA 43005
+43006	Sumpf							OA 43006
+44006	Stehendes Gewässer							OA 44006
+44006	Stehendes Gewässer	FKT 8640	Baggersee					OA 44006    FKT 8640
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1340	Trockendock					OA 51002    BWF 1340
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1410	Spielfeld					OA 51006    BWF 1410
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1410	Spielfeld	SPO 1030	Tennis			OA 51006   BWF 1410   SPO 1030
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1410	Spielfeld	SPO 1011	Fußball			OA 51006   BWF 1410   SPO 1011
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1420	Rennbahn, Laufbahn, Geläuf					OA 51006    BWF 1420
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1430	Zuschauertribüne					OA 51006    BWF 1430
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1440	Stadion					OA 51006    BWF 1440
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1450	Schwimmbecken					OA 51006    BWF 1450
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1480	Schießanlage					OA 51006    BWF 1480
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1470	Sprungschanze (Anlauf)					OA 51006    BWF 1470
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1490	Gradierwerk					OA 51006    BWF 1490
+51006	Bauwerk oder Anlage für Sport, Freizeit und Erholung	BWF 1510	Wildgehege					OA 51006    BWF 1510
+51007	Historisches Bauwerk oder historische Einrichtung	ATP 1000	Grab					OA 51007    ATP 1000
+52001	Ortslage							OA 52001
+52002	Hafen							OA 52002
+52003	Schleuse							OA 52003
+52005	Testgelände							OA 52005
+43001	Landwirtschaft	VEG 1021	Streuobstwiese					OA 43001    VEG 1021
+43001	Landwirtschaft	VEG 1030	Gartenland					OA 43001    VEG 1030
+43001	Landwirtschaft	VEG 1031	Baumschule					OA 43001    VEG 1031
+52004	Grenzübergang							OA 52004
+53007	Flugverkehrsanlage	ART 1310	Startbahn, Landebahn					OA 53007    ART 1310
+41004	Bergbaubetrieb							OA 41004
+41008	Sport-, Freizeit- und Erholungsfläche	FKT 4200	Freizeitanlage					OA 41008    FKT 4200
+43007	Unland/Vegetationslose Fläche	FKT 1100	Gewässerbegleitfläche					OA 43007    FKT 1100
+43007	Unland/Vegetationslose Fläche	FKT 1000	Vegetationslose Fläche					OA 43007    FKT 1000
+42001	Straßenverkehr							OA 42001
+42010	Bahnverkehr							OA 42010
+43008	Fläche zur Zeit unbestimmbar							OA 43008
+44005	Hafenbecken							OA 44005
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1210	Klärbecken					OA 51002    BWF 1210
+53007	Flugverkehrsanlage	ART 1320	Zurollbahn, Taxiway					OA 53007    ART 1320
+53007	Flugverkehrsanlage	ART 1330	Vorfeld					OA 53007    ART 1330
+53007	Flugverkehrsanlage	ART 5531	Hubschrauberlandeplatz					OA 53007    ART 5531
+54001	Vegetationsmerkmal	BWS 1021	Baumbestand, Laubholz					OA 54001    BWS 1021
+54001	Vegetationsmerkmal	BWS 1022	Baumbestand, Nadelholz					OA 54001    BWS 1022
+54001	Vegetationsmerkmal	BWS 1023	Baumbestand, Laub- und Nadelholz					OA 54001    BWS 1023
+54001	Vegetationsmerkmal	BWS 1250	Gehölz					OA 54001    BWS 1250
+54001	Vegetationsmerkmal	BWS 1260	Gebüsch					OA 54001    BWS 1260
+54001	Vegetationsmerkmal	BWS 1400	Röhricht, Schilf					OA 54001    BWS 1400
+54001	Vegetationsmerkmal	BWS 1500	Gras					OA 54001    BWS 1500
+54001	Vegetationsmerkmal	BWS 1900	Streuobst					OA 54001    BWS 1900

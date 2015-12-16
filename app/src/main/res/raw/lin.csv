@@ -1,0 +1,62 @@
+OAR	name_oar	ATR_1	Name_1	ATR_2	Name_2	ATR_3	Name_3	TEXT
+42008	Fahrwegachse	FKT 5212	Wirtschaftsweg	BEF 2000	Unbefestigt			OA 42008   FKT 5212   BEF 2000
+42008	Fahrwegachse	FKT 5212	Wirtschaftsweg	BEF 1000	Befestigt			OA 42008   FKT 5212   BEF 1000
+42008	Fahrwegachse	FKT 5211	Hauptwirtschaftsweg					OA 42008   FKT 5211
+42005	Fahrbahnachse							OA 42005
+42002	Straße	WDM 9999	Sonstiges					OA 42002   WDM 9999
+42002	Straße	WDM 9997	Attribut trifft nicht zu					OA 42002   WDM 9997
+42002	Straße	WDM 1307	Gemeindestraße	FSZ 1	Anzahl der Fahrstreifen			OA 42002   WDM 1307   FSZ 1
+42002	Straße	WDM 1307	Gemeindestraße					OA 42002   WDM 1307
+42014	Bahnstrecke							OA 42014
+42005	Fahrbahnachse							OA 42005
+51004	Transportanlage	BWF 1101	Rohrleitung, Pipeline	OFL 1400	Aufgeständert			OA 51004   BWF 1101   OFL 1400
+51004	Transportanlage	BWF 1101	Rohrleitung, Pipeline	OFL 1200	Unter der Erdoberfläche			OA 51004   BWF 1101   OFL 1200
+51004	Transportanlage	BWF 1102	Förderband, Bandstraße	OFL 1200	Unter der Erdoberfläche			OA 51004   BWF 1102   OFL 1200
+51004	Transportanlage	BWF 1102	Förderband, Bandstraße	OFL 1400	Aufgeständert			OA 51004   BWF 1102   OFL 1400
+53003	Weg, Pfad, Steig	ART 1103	Fußweg	BEF 1000	Befestigt			OA 53003   ART 1103   BEF 1000
+53003	Weg, Pfad, Steig	ART 1103	Fußweg	BEF 2000	Unbefestigt			OA 53003   ART 1103   BEF 2000
+53009	Bauwerk im Gewässerbereich	BWF 2133	Hafendamm, Mole					OA 53009   BWF 2133
+53009	Bauwerk im Gewässerbereich	BWF 2136	Ufermauer, Kaimauer					OA 53009   BWF 2136
+54001	Vegetationsmerkmal	BWS 1210	Baumreihe, Laubholz					OA 54001   BWS 1210
+54001	Vegetationsmerkmal	BWS 1220	Baumreihe, Nadelholz					OA 54001   BWS 1220
+54001	Vegetationsmerkmal	BWS 1230	Baumreihe, Laub- und Nadelholz					OA 54001   BWS 1230
+42002	Straße	WDM 1306	Kreisstraße					OA 42002   WDM 1306
+42002	Straße	WDM 1305	Landesstraße, Staatsstraße					OA 42002   WDM 1305
+42002	Straße	WDM 1303	Bundesstraße					OA 42002   WDM 1303
+42002	Straße	WDM 1301	Bundesautobahn					OA 42002   WDM 1301
+42002	Straße	WDM 1303	Bundesstraße					OA 42002   WDM 1303
+44002	Wasserlauf							OA 44002
+44003	Kanal							OA 44003
+51004	Transportanlage	BWF 1101	Rohrleitung, Pipeline					OA 51004   BWF 1101
+51004	Transportanlage	BWF 1102	Förderband, Bandstraße					OA 51004   BWF 1102
+51005	Leitung	BWF 1110	Freileitung					OA 51005   BWF 1110
+53001	Bauwerk im Verkehrsbereich	BWF 1800	Brücke					OA 53001   BWF 1800
+53001	Bauwerk im Verkehrsbereich	BWF 1820	Steg					OA 53001   BWF 1820
+53001	Bauwerk im Verkehrsbereich	BWF 1830	Hochbahn, Hochstraße					OA 53001   BWF 1830
+53001	Bauwerk im Verkehrsbereich	BWF 1870	Tunnel, Unterführung					OA 53001   BWF 1870
+53001	Bauwerk im Verkehrsbereich	BWF 1880	Schutzgalerie					OA 53001   BWF 1880
+53001	Bauwerk im Verkehrsbereich	BWF 1890	Schleusenkammer					OA 53001   BWF 1890
+44002	Wasserlauf	HYD 2000	Nicht ständig Wasser führend					OA 44002   HYD 2000
+54001	Vegetationsmerkmal	BWS 1100	Hecke					OA 54001   BWS 1100
+61003	Damm, Wall, Deich							OA 61003
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1620	Treppe					OA 51009   BWF 1620
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1700	Mauer					OA 51009   BWF 1700
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1740	Zaun					OA 51009   BWF 1740
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1790	Spundwand					OA 51009   BWF 1790
+53001	Bauwerk im Verkehrsbereich	BWF 1900	Durchfahrt					OA 53001   BWF 1900
+53003	Weg, Pfad, Steig	ART 1109	(Kletter-)Steig im Gebirge					OA 53003   ART 1109
+53005	Seilbahn, Schwebebahn	BKT 2200	Kabinenbahn, Umlaufseilbahn					OA 53005   BKT 2200
+53006	Gleis							OA 53006
+53009	Bauwerk im Gewässerbereich	BWF 2010	Durchlass					OA 53009   BWF 2010
+53009	Bauwerk im Gewässerbereich	BWF 2012	Düker					OA 53009   BWF 2012
+53009	Bauwerk im Gewässerbereich	BWF 2030	Staumauer					OA 53009   BWF 2030
+53009	Bauwerk im Gewässerbereich	BWF 2050	Wehr					OA 53009   BWF 2050
+53009	Bauwerk im Gewässerbereich	BWF 2040	Staudamm					OA 53009   BWF 2040
+53009	Bauwerk im Gewässerbereich	BWF 2060	Sicherheitstor					OA 53009   BWF 2060
+53009	Bauwerk im Gewässerbereich	BWF 2070	Siel					OA 53009   BWF 2070
+53009	Bauwerk im Gewässerbereich	BWF 2080	Sperrwerk					OA 53009   BWF 2080
+53009	Bauwerk im Gewässerbereich	BWF 2090	Schöpfwerk					OA 53009   BWF 2090
+53009	Bauwerk im Gewässerbereich	BWF 2120	Pegel					OA 53009   BWF 2120
+53009	Bauwerk im Gewässerbereich	BWF 2130	Uferbefestigung					OA 53009   BWF 2130
+53009	Bauwerk im Gewässerbereich	BWF 2131	Wellenbrecher, Buhne					OA 53009   BWF 2131
+53009	Bauwerk im Gewässerbereich	BWF 2132	Lahnung					OA 53009   BWF 2132

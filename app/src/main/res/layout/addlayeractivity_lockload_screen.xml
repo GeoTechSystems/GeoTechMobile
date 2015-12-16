@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/addLayerActivity_RelativeTable_Layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal" >
+
+	<ScrollView
+		android:id="@+id/addLayerActivity_Layer_scrollview"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/addLayerActivity_spinner_serverlist" >
+
+		<HorizontalScrollView
+			android:id="@+id/addLayerActivity_Layer_horizontal_scroll_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+			<TableLayout
+				android:id="@+id/getFeatureWithLockActivity_layer_table_layout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+			</TableLayout>
+		</HorizontalScrollView>
+	</ScrollView>
+
+	<TextView
+		android:id="@+id/addLayerActivity_text_server"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"
+		android:text="@string/addLayerActivity_text_server_info"
+		android:textColor="@color/text_color"
+		android:textSize="@dimen/text_size_22dp" />
+
+	<Spinner
+		android:id="@+id/addLayerActivity_spinner_serverlist"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/addLayerActivity_text_server"
+		android:layout_marginLeft="20dp"
+		android:clickable="true"
+		android:scrollbars="horizontal|vertical" />
+
+</RelativeLayout>

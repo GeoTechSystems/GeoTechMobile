@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/text_projects_add_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/project_new_create"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="@color/text_color" />
+
+	<EditText
+		android:id="@+id/edit_projects_add_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/text_projects_add_title"
+		android:layout_toRightOf="@+id/text_projects_add_srs"
+		android:ems="10"
+		android:padding="@dimen/padding_medium" >
+
+		<requestFocus />
+	</EditText>
+
+	<TextView
+		android:id="@+id/text_projects_add_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/edit_projects_add_name"
+		android:layout_alignBottom="@+id/edit_projects_add_name"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="Name: " />
+
+	<Spinner
+		android:id="@+id/spinner_projects_add_srs"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/edit_projects_add_name"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/edit_projects_add_name"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/text_projects_add_srs"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/spinner_projects_add_srs"
+		android:layout_alignBottom="@+id/spinner_projects_add_srs"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/project_reference_system" />
+
+	<EditText
+		android:id="@+id/edit_projects_add_desc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/spinner_projects_add_srs"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/spinner_projects_add_srs"
+		android:ems="10"
+		android:gravity="top|left"
+		android:inputType="textMultiLine"
+		android:lines="@integer/edittext_three_lines"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/text_projects_add_desc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignTop="@+id/edit_projects_add_desc"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/project_description" />
+
+	<Button
+		android:id="@+id/button_projects_add"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/edit_projects_add_desc"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@color/button_color"
+		android:text="@string/project_new_create"
+		android:textColor="@color/button_text"
+		android:textSize="@dimen/text_size_18dp" />
+
+</RelativeLayout>

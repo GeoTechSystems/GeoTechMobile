@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layer_manager_wrapper"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal" >
+
+	<LinearLayout
+		android:id="@+id/element_selector_menu"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="@android:color/background_dark"
+		android:gravity="top"
+		android:orientation="vertical"
+		android:padding="10dip" >
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/filterIntro" />
+		</LinearLayout>
+
+		<RadioGroup
+			android:id="@+id/radioFilter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<RadioButton
+				android:id="@+id/radioNone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="@string/radioNone" />
+
+			<RadioButton
+				android:id="@+id/radioDelta"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radioDelta" />
+
+			<RadioButton
+				android:id="@+id/radioSatCount"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radioSatCount" />
+
+			<RadioButton
+				android:id="@+id/radioMinAzimuth"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radioMinElevation" />
+
+			<RadioButton
+				android:id="@+id/radioAverageAzimuth"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radioAverageElevation" />
+		</RadioGroup>
+
+		<LinearLayout
+			android:id="@+id/filterOptions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" />
+
+		<Button
+			android:id="@+id/filterDo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@color/button_color"
+			android:text="@string/filterDo"
+			android:textColor="@color/button_text" />
+	</LinearLayout>
+
+</LinearLayout>

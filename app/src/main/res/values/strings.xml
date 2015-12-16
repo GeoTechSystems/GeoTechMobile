@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello GeoTechMobile!</string>
+	<string name="app_name">GeoTechMobile</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="cancel">Cancel</string>
+	<string name="load">Load</string>
+	<string name="workspace">Workspace</string>
+	<string name="layer">Layer management</string>
+	<string name="type">Type</string>
+	<string name="geometry_column">Geometry column</string>
+	<string name="do_import">Import</string>
+	<string name="warning">Warning</string>
+	<string name="do_continue">Continue</string>
+	<string name="point">Point</string>
+	<string name="line">Line</string>
+	<string name="polygon">Polygon</string>
+	<string name="unknown">Unknown</string>
+	<string name="back">Back</string>
+	<string name="apply">apply</string>
+	<string name="filter">Filter</string>
+	<string name="view">View</string>
+	<string name="new_">New Feature</string>
+	<string name="close">Close</string>
+	<string name="calculate">Calculate</string>
+	<string name="input">Input</string>
+	<string name="error">Error</string>
+	<string name="longitude">Longitude</string>
+	<string name="lon">Lon</string>
+	<string name="latitude">Latitude</string>
+	<string name="lat">Lat</string>
+	<string name="projection">Projection</string>
+	<string name="set">Set</string>
+	<string name="gps_position">GPS Position</string>
+	<string name="zoom_to_bounds">Zoom to bounds</string>
+	<string name="sync">Synchronize Layer</string>
+	<string name="add_server">Choose Layer</string>
+	<string name="navi">GPS Position\nOn/Off</string>
+	<string name="edit">Edit Feature</string>
+	<string name="layer_locked">Locked Layer to edit: </string>
+	<string name="locked_type">Layer type: </string>
+	<string name="leftnd_gfwl">Lock management</string>
+	<string name="delete">delete</string>
+	<string name="remove">remove</string>
+	<string name="releaseLockButton">Release Lock</string>
+	<string name="editFeatureButton">Edit Feature</string>
+	<string name="features">Features: </string>
+	<string name="attributes">Attributes: </string>
+	<string name="add_layer_table_locked_box">locked due this device</string>
+	<string name="add_layer_table_chosen_box">already chosen</string>
+	<string name="buildTableTask_connecting">Connecting to server</string>
+	<string name="buildTableTask_waiting">Waiting for service response...</string>
+	<string name="buildTableTask_workspace">Workspace</string>
+	<string name="buildTableTask_name">Name</string>
+	<string name="buildTableTask_epsg">Reference</string>
+	<string name="addLayerTable_features_column_title">Sum Features</string>
+	<string name="addLayerTable_thrown_illegalArgumentException">Don\'t except more than 3 head titles!</string>
+	<string name="ok">OK</string>
+	<string name="message">Message</string>
+	<string name="getFeatureWithLockActivity_locked_message">Layer locked till </string>
+	<string name="leftmenu_settings">Settings</string>
+	<string name="project_settings">Project-Settings</string>
+	<string name="project">Current Project:</string>
+	<string name="getfeaturewithlock_lock_button_text">Lock layer</string>
+	<string name="addLayerTable_already_chosen">Get</string>
+	<string name="project_no_project_chosen">No Project chosen</string>
+	<string name="addLayerTable_features_column_type">Type</string>
+	<string name="expiry_picker_selectedDate">Lock until:</string>
+	<string name="kriging">Kriging</string>
+	<string name="delta">Accuracy</string>
+
+
+	<string-array name="input_output_type">
+		<item>File</item>
+		<item>Database</item>
+	</string-array>
+	<string-array name="auto_sync">
+		<item>OFF</item>
+		<item>ON</item>
+	</string-array>
+	<string-array name="bool">
+		<item>No (false - 0)</item>
+		<item>Yes (true - 1)</item>
+	</string-array>
+	<string-array name="coordinate_reference_systems">
+		<item>Google Mercator | epsg:3785</item>
+		<item>WGS 84 | epsg:4326</item>
+		<item>Gauss-Krüger Zone 2 | epsg:31465</item>
+		<item>Gauss-Krüger Zone 3 | epsg:31466</item>
+		<item>Gauss-Krüger Zone 4 | epsg:31467</item>
+		<item>Gauss-Krüger Zone 5 | epsg:31468</item>
+		<item>UTM Zone 31N | epsg:32631</item>
+		<item>UTM Zone 32N | epsg:32632</item>
+		<item>UTM Zone 33N | epsg:32633</item>
+		<item>Lambert | epsg:2192</item>
+	</string-array>
+	<string-array name="feature_type">
+		<item>Point</item>
+		<item>Line</item>
+		<item>Polygon</item>
+	</string-array>
+
+	<string name="elementSelector_backButton">Back to Layer-Overview</string>
+	<string name="satCount">Number of satellites</string>
+	<string name="averageElevation">Average elevation</string>
+	<string name="minElevation">Min elevation</string>
+	<string name="accuracy">Precision</string>
+	<string name="radioDelta">Filtering for precision</string>
+	<string name="radioNone">Show all</string>
+	<string name="filterIntro">Please choose an option</string>
+	<string name="radioSatCount">Filtering for numbers of satellites </string>
+	<string name="radioMinElevation">Filtering for min elevation</string>
+	<string name="filterDo">apply</string>
+	<string name="radioAverageElevation">Filtering for average elevation</string>
+	<string name="satFixCount">Number of used satellites</string>
+	<string name="attrSelectIntro">Which attributes should be displayed in overview?</string>
+	<string name="errorSaveAlert">No Feature created! OR selected Feature is already saved! You have to create a new Feature (e.g. by usinge GPS).</string>
+	<string name="nothingToSave">Can not save. No Feature exists!</string>
+	<string name="noUrlTitle">Can not connect to server!</string>
+	<string name="noUrlMsg">No URL available. Want to enter an URL now?</string>
+	<string name="automaticAttributeManagerIntroMsg">No Attributes activated.Please choose Attributes you want to see on the Display.</string>
+	<string name="text_settings_edit_project">"Edit project settings... "</string>
+	<string name="text_settings_wfs">"WFS settings: "</string>
+	<string name="text_settings_url">"URL: "</string>
+	<string name="text_button_test_connection">Test connection</string>
+	<string name="text_switch_auto_sync">Auto-sync WFS</string>
+	<string name="text_settings_background_maps">"Background maps: "</string>
+	<string name="text_switch_openstreetmap">OpenStreetMap</string>
+	<string name="text_button_apply_changes">Apply changes</string>
+	<string name="text_settings_wms">"WMS settings: "</string>
+	<string name="text_button_back_to_addlayeractivity">Back</string>
+	<string name="text_info_wms">Please insert WMS server address: </string>
+	<string name="text_server_type">Server Type</string>
+	<string name="project_name_setting">New project</string>
+	<string name="project_load">Load project</string>
+	<string name="project_delete">Delete project</string>
+	<string name="project_new_create">Create new project</string>
+	<string name="project_reference_system">Reference system: </string>
+	<string name="project_description">Description: </string>
+	<string name="project_delete_this_project">Do you really want to delete this project?</string>
+	<string name="project_file_deletet">Project file deletet</string>
+	<string name="prjoect_cannot_delete_file">Could not delete project file</string>
+	<string name="projectManager_no_project_selected">No project selected. Please choose a project!</string>
+	<string name="projectManager_no_project_loaded">No project loaded. Please load a project!</string>
+	<string name="project_please_set_project_name">Please indicate a projectname</string>
+	<string name="title_activity_addProjectActivity">Project management</string>
+	<string name="main_menue_projects">Project management</string>
+	<string name="main_menue_help">Help</string>
+	<string name="main_menue_settings">Add Layers</string>
+	<string name="main_ask_load_layer_title">Please add a layer to your project</string>
+	<string name="main_adk_load_layer_message">Do you want to add a layer?</string>
+	<string name="addLayerActivity_load_layer_button">Load chosen layer(s)</string>
+	<string name="layer_apply">Apply changes</string>
+	<string name="layerView_have_to_choose_attribute">Please choose an attribute</string>
+	<string name="WFSlayer_layer_load_question">Load layer?</string>
+	<string name="WFSlayer_layer_message">The projects existing local data will be deleted before new layers are created!\nContinue?</string>
+	<string name="WFSlayer_selected_layer_load">Load selected layer</string>
+	<string name="WFSlayer_layer_request">WFS layer request</string>
+	<string name="WFSlayer_layer_available_loading">Loading available WFS layers...</string>
+	<string name="title_wfs_locking">Locked WFS layer</string>
+	<string name="layerManager_feature_import_title">Feature import</string>
+	<string name="layerManager_feature_import_message">\n\nAll features of this layer which are not synchronized will be lost!\n\n</string>
+	<string name="layerManager_feature_import_all_message">\n\nAlle Features aller Layer, die nicht synchronisiert sind, werden gelöscht!\n\n</string>
+	<string name="layerManager_feature_import_result_title">Import result</string>
+	<string name="layerManager_feature_import_result_message">features have been successfully imported</string>
+	<string name="layerManager_feature_import_result_error_message">An error occured during import of features.</string>
+	<string name="layerManager_feature_import_loading">Importing features.Please wait...</string>
+	<string name="layerManager_layer_delete_warning_title">Delete layer</string>
+	<string name="layerManager_layer_delete_warning_message">Layer will be deleted!\nContinue?</string>
+	<string name="layerManager_layer_empty_wms_list">Empty WMS list</string>
+	<string name="layerManager_layer_empty_wfs_list">Empty WFS list</string>
+	<string name="title_activity_layerManagerActivity">Layer management</string>
+	<string name="help_define_parameters_title">Define parameters</string>
+	<string name="help_define_parameters_number">Number: </string>
+	<string name="help_define_parameters_insert">Insert</string>
+	<string name="main_sync_message">All features have been successfully synchronized.</string>
+	<string name="main_sync_result">Synchronization result</string>
+	<string name="main_sync_error_message">An error occured during synchronization. \nEdited and new inserted Feature of this layer have not completely or not at all been uploaded to the Server and are only existing on this device. \nPlease try to synchronize this layer again later.</string>
+	<string name="featureEditor_point_save">Save point</string>
+	<string name="featureEditor_line_save">Save Line</string>
+	<string name="featureEditor_polygon_save">Save Polygon</string>
+	<string name="featureEditor_add_point">Add point</string>
+	<string name="featureEditor_error_no_location_returned">No location returned!</string>
+	<string name="featureEditor_error_unknown_menu_id">: Unknown menu id!</string>
+	<string name="featureEditor_new_hole">New hole</string>
+	<string name="featureEditor_edit_hole">Edit hole</string>
+	<string name="featureEditor_hole">Hole</string>
+	<string name="featureEditor_error_no_hole">No holes found</string>
+	<string name="featureEditor_coordinate_input">Coordinate input</string>
+	<string name="featureEditor_error_feature_cannot_save">: feature could not be saved.</string>
+	<string name="featureEditor_use_gps_loc">Use GPS location?</string>
+	<string name="locationFactory_requesting_position">Requesting position</string>
+	<string name="locationFactory_request_waiting_for_fix">Waiting for fix...</string>
+	<string name="enter_coordinate_values">Enter coordinate values:</string>
+	<string name="main_title_first_load_project">First you have to load a project!</string>
+	<string name="main_message_load_project">You want to load a project now?</string>
+	<string name="WFSAutoCompleteTextView">scc-geodroid.scc.kit.edu</string>
+	<string name="addLayerActivity_switch_text_server_chooser">Please choose the type of server: </string>
+	<string name="addLayerActivity_switch_text_on">WMS</string>
+	<string name="addLayerActivity_switch_text_off">WFS</string>
+	<string name="addLayerActivity_text_server_info">Available Servers: </string>
+	<string name="addLayerActivity_button_text_newLayer">New Server</string>
+	<string name="addLayerActivity_button_text_checkConnection">Check connection</string>
+	<string name="addLayerAcitivty_popup_text_title">Server Input Dialog</string>
+	<string name="addLayerActivity_popup_text_uri">Please insert a new server address</string>
+	<string name="addLayerAcitivty_button_text_loadwmslayers">Enter</string>
+	<string name="addLayerAcitivty_switch_toast_text">No Serveraddresses entered until now!</string>
+	<string name="title_activity_addLayerActivity">Choose Layer</string>
+	<string name="headCountF">Features</string>
+	<string name="headCountA">Attributes</string>
+	<string name="addLayerActivity_popup2_text_title">You have choosen a WMS server</string>
+	<string name="addLayerActivity_popup2_text_message">Please press the Button <b>Load WMS Layer</b></string>
+	<string name="addLayerActivity_popup3_text_title">You have choosen a WFS server</string>
+	<string name="addLayerActivity_popup3_text_message">Please press the Button <b>WFS settings</b></string>
+	<string name="addLayerActivity_button_text_wfssettings">Load layers</string>
+	<string name="enableGPSTitle">Location information can not be retrieved!</string>
+	<string name="enableGPSText">Please allow retrieving coordinates in the Android system settings.</string>
+	<string name="WFSlayer_load_noLayersSelected">Only the (local) existing layers will be deleted if you continues.</string>
+	<string name="WFSlayer_load_noLayersSelected_title">No layers have been marked for loading!</string>
+	<string name="continueAction">Continue</string>
+	<string name="help_button">&lt;html&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br /&gt;&lt;font size=&quot;+3&quot;&gt;GeoTech&lt;font color=&quot;#ffcd11&quot;&gt;Mobile&lt;/font&gt; v1.0&lt;/font&gt;&lt;br /&gt;Tel. &lt;a href=&quot;tel:+4915787543554&quot;&gt;+49 (0)1578 7543 554&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;E-Mail: &lt;a href=&quot;mailto:info@geotech-systems.de&quot;&gt;info@geotech-systems.de&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;AAA GeoTech Systems UG (haftungsbeschränkt)&lt;br /&gt;c/o Geodätisches Institut&lt;br /&gt;Englerstraße 7&lt;br /&gt;76131 Karlsruhe&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+	<string name="feature_editor_alert_point">Point is not set!</string>
+	<string name="feature_editor_alert_line">Line is incomplete!</string>
+	<string name="feature_editor_alert_polygon">Polygon is incomplete!</string>
+	<string name="title_activity_get_feature_with_lock">Lock management</string>
+	<string name="action_settings">Settings</string>
+	<string name="getfeaturewithlock_load_button_info">Lock Layer</string>
+	<string name="getfeaturewithlock_server_info">Choose Server to lock Layers on:</string>
+	<string name="title_activity_locked_feature_editor">Locked Feature Editor</string>
+	<string name="release_lock_warning_dialog_title">Lock Warning!</string>
+	<string name="release_lock_warning_dialog_message">Do you really want to lock this features?</string>
+	<string name="add_layer_button">Load Layer</string>
+	<string name="auto_sync_switch">Auto Sync\t\t\t\t</string>
+	<string name="osm_switch">Open Street Map</string>
+	<string name="addLayerActivity_radio_wms">WMS</string>
+	<string name="addLayerActivity_radio_wfs">WFS</string>
+	<string name="title_activity_add_layer_activity_new">Choose Layer</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="easting">Easting</string>
+	<string name="northing">Northing</string>
+	<string name="recording_time">Recording time</string>
+	<string name="title_activity_expiry_picker_activity_new">ExpiryPickerActivityNEW</string>
+	<string name="title_activity_expiry_picker">ExpiryPickerActivity</string>
+	<string name="addLayerActivity_layers_available">Layers on Server: </string>
+	<string name="lockfeaturewfs_alert_positive_feedback_title">Well done...</string>
+	<string name="lockfeaturewfs_alert_positive_feedback_message">The Layer is now locked !</string>
+	<string name="lockfeaturewfs_alert_negative_feedback_title">Oh no...</string>
+	<string name="lockfeaturewfs_alert_negative_feedback_message">something went wrong! Maybe the layer is actually locked. Try again later!</string>
+	<string name="geotechmobilesettingsactivity_tv_header_text">General settings for GeoTechMobile</string>
+	<string name="geotechmobilesettingsactivity_button_resetServer_text">Reset Serverlists</string>
+	<string name="addLayerActivity_button_resetServerList_text">Reset Serverlists</string>
+	<string name="title_activity_geotechmobilesettingsactivity">Settings</string>
+	<string name="geotechmobilesettingsactivity_tv_switch_osm_text">Activates or deactivates the OSM background map.</string>
+	<string name="geotechmobilesettingsactivity_tv_switch_auto_sync_text">Activates or deactivates the automatic synchronization.</string>
+	<string name="geotechmobilesettingsactivity_tv_button_resetserver_text">Set default values for the serverlists.</string>
+	<string name="geotechmobilesettingsactivity_button_resetserver_alert_title">Reset Serverlists</string>
+	<string name="geotechmobilesettingsactivity_button_resetserver_alert_message">Do you really want to reset the serverlists? \n <b>All</b> manually added server will be lost!</string>
+	<string name="geotechmobilesettingsactivity_button_resetserver_toast_message">Reset serverlists done...</string>
+	<string name="testconnectiontask_dialog_title">Connection test</string>
+	<string name="testconnectiontask_dialog_message">Waiting for service response...</string>
+	<string name="testconnectiontask_MalformedURLException">. This issue seems to result from a malformed URL.\n\n</string>
+	<string name="testconnectiontask_ParserConfigurationException">. This issue seems to result from a bad parser configuration.\n\n</string>
+	<string name="testconnectiontask_SAXException">. This issue seems to result from an error of the WFS/WMS parsing (maybe the XML content of the WFS/WMS is broken).\n\n</string>
+	<string name="testconnectiontask_IOException"> A problem with the input/output connection occured. The reason might be an incorrect server address. Please check the server address.\t</string>
+	<string name="testconnectiontask_ready_dialog_part1">Connection successful. \n\n</string>
+	<string name="testconnectiontask_ready_dialog_part2">Tested serveraddress: \n</string>
+	<string name="testconnectiontask_ready_dialog_part3">\n\nServer information: \n</string>
+	<string name="testconnectiontask_ready_dialog_part4">\nProvider information:</string>
+	<string name="testconnectiontask_ready_dialog_part5">\nName: \t\t\t\t\t\t\t</string>
+	<string name="testconnectiontask_ready_dialog_part6">\nIndividual name: \t</string>
+	<string name="testconnectiontask_ready_dialog_part7">\nPosition: \t\t\t\t\t</string>
+	<string name="testconnectiontask_ready_dialog_part8">\nCity: \t\t\t\t\t\t\t\t</string>
+	<string name="testconnectiontask_ready_dialog_part9">\nCountry: \t\t\t\t\t\t</string>
+	<string name="testconnectiontask_ready_dialog_errormsg1">We are experiencing an issue with the WFS/WMS connection. Connection could not be established or service is not a \nWFS/WMS.\n\n</string>
+	<string name="testconnectiontask_ready_dialog_errormsg2">Exception message:\n</string>
+	<string name="testconnectiontask_ready_dialog_errormsg3">Please check whether your server is actually running. Call the support number if this issue remains.</string>
+	<string name="title_activity_test">TestActivity</string>
+	<string name="title_section1">Section 1</string>
+	<string name="title_section2">Section 2</string>
+	<string name="title_section3">Section 3</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="action_example">Example action</string>
+	<string name="radius_point_toast">With a 68% probability the point is located in the following radius</string>
+	<string name="satCount_point_toast">Number of used satellites</string>
+	<string name="call_location_settings">Change settings</string>
+	<string name="worstAccuracy_toast">Maximum inaccuracy</string>
+	<string name="featureEditor_point_update">Update point</string>
+	<string name="featureEditor_cancel_update">Cancel Update</string>
+	<string name="featureEditor_line_update">Update Line</string>
+	<string name="geotechmobilesettingsactivity_markers">Markers</string>
+	<string name="geotechmobilesettingsactivity_tv_switch_markers">Activates or deactivates the Feauture Flag markers.</string>
+	<string name="newserver_dialog_auth_button_text">HTTP-Authentication</string>
+	<string name="newserver_dialog_servername_textfortv">Name: </string>
+	<string name="newserver_dialog_serverurl_textfortv">URL: </string>
+	<string name="newserver_dialog_optionaleparameter_text">Please enter a user name and an optional password if the service requires Basic authentication</string>
+	<string name="newserver_dialog_username_textfortv">Username: </string>
+	<string name="newserver_dialog_password_textfortv">Password: </string>
+	<string name="add_layer_table_chosen_box_WMS_already_there">Already WMS-Layer given</string>
+	<string name="editfeaturebar_manually_coord_input">Change Coordinates</string>
+	<string name="editfeaturebar_manually_attribute_input">Change Attributes</string>
+	<string name="editfeaturebar_close_unsaved_title">Cancel Editing </string>
+	<string name="editfeaturebar_close_unsaved_message">Do You really want to quit the Editor? \n If you close the Editor Toolbar now, all change made at the last edited feature will be lost. Please press Cancel and save the Feature first.</string>
+	<string name="lockexpiriysetter_lockingtime_dialog_datebutton">Change Date</string>
+	<string name="lockexpiriysetter_lockingtime_dialog_timebutton">Change Time</string>
+	<string name="featureEditor_attribute_input_title">Change Attributes</string>
+	<string name="attribute_input_dialog">Change Attributes here</string>
+	<string name="edit_feature_bar_overwrite">Save</string>
+	<string name="feature_attribute_creator_save">Save Feature</string>
+	<string name="is_synced_with_server">Feature is synchronized with Server-Data.</string>
+	<string name="is_not_synced_with_server">Feature is NOT synchronized with Server-Data.</string>
+	<string name="feature_editor_save_point">Point is saved into DB, but is NOT synchronized with Server-Data. Synchronize with Synchronize-Button.</string>
+	<string name="feature_editor_save_line">Line is saved into DB, but is NOT synchronized with Server-Data. Synchronize with Synchronize-Button.</string>
+	<string name="feature_editor_save_polygon">Polygon is saved into DB, but is NOT synchronized with Server-Data. Synchronize with Synchronize-Button.</string>
+	<string name="main_sync_nothing_to_sync">No unsynchronized Features in Layer</string>
+	<string name="feature_editor_save_title">Save Feature</string>
+	<string name="feature_editor_save_message">No Changes made yet, Feature not saved.</string>
+	<string name="geotechmobilesettingsactivity_notSyncCyan_title">Cyan</string>
+	<string name="geotechmobilesettingsactivity_notSyncCyan_text">Unsynchronized Features always drawn in Cyan.</string>
+	<string name="geotechmobilesettingsactivity_switch_off">OFF</string>
+	<string name="geotechmobilesettingsactivity_switch_on">ON</string>
+	<string name="feature_is_not_done">Feature is not done yet.</string>
+	<string name="feature_is_done">Feature is done.</string>
+
+	<string-array name="wfs_layer_columns">
+		<item>Name</item>
+		<item>Workspace</item>
+		<item>Type</item>
+		<item>Attributes</item>
+		<item>Features</item>
+		<item>Color</item>
+		<item>Show\nFeatures</item>
+		<item>Layer\nup</item>
+		<item>Layer\ndown</item>
+		<item>Import\nFeatures</item>
+		<item>List\nFeatures</item>
+		<item>Remove</item>
+		<item>Synchronized</item>
+	</string-array>
+	<string-array name="wms_layer_columns">
+		<item>Name</item>
+		<item>Workspace</item>
+		<item>Reference\nSystem</item>
+		<item>Layer\nup</item>
+		<item>Layer\ndown</item>
+		<item>Remove</item>
+	</string-array>
+
+	<string name="layerManager_layer_sync_warning_title">Synchronization</string>
+	<string name="layerManager_layer_sync_warning_message">Do you really want to synchronize your new and edited Features of this Layer with the Server?</string>
+	<string name="transaction_progress_title">Synchronizing with WFS</string>
+	<string name="transaction_progress_message">Transaction with WFS...</string>
+	<string name="long_touch_detail_button">Feature Details</string>
+	<string name="long_touch_edit_button">Edit Feature</string>
+	<string name="last_feature_table">last</string>
+	<string name="next_feature_table">next</string>
+	<string name="addLayerActivtiy_radio_info">Choose Servertype:</string>	
+	
+</resources>

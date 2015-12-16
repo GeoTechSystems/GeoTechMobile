@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TextView
+		android:id="@+id/featureEditor_attribute_input_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/enter_coordinate_values"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<Button
+		android:id="@+id/button_coordinput_set"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:background="@color/button_color"
+		android:text="@string/set"
+		android:textColor="@color/button_text" />
+
+	<Button
+		android:id="@+id/button_coordinput_cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:background="@color/button_color"
+		android:text="@string/cancel"
+		android:textColor="@color/button_text" />
+
+	<Spinner
+		android:id="@+id/spinner_coordinput_crs"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/featureEditor_attribute_input_title"
+		android:layout_toRightOf="@+id/text_coordinput_crs"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/text_coordinput_crs"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/spinner_coordinput_crs"
+		android:layout_alignBottom="@+id/spinner_coordinput_crs"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/projection" />
+
+	<EditText
+		android:id="@+id/edit_coordinput_x"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/spinner_coordinput_crs"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/spinner_coordinput_crs"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" >
+
+		<requestFocus />
+	</EditText>
+
+	<EditText
+		android:id="@+id/edit_coordinput_y"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/edit_coordinput_x"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/edit_coordinput_x"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/text_coordinput_x"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/edit_coordinput_x"
+		android:layout_alignBottom="@+id/edit_coordinput_x"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="X: " />
+
+	<TextView
+		android:id="@+id/text_coordinput_y"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/edit_coordinput_y"
+		android:layout_alignBottom="@+id/edit_coordinput_y"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="Y: " />
+
+	<TableLayout
+	    android:id="@+id/edit_coordinate_tablelayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/edit_coordinput_y" >
+
+	</TableLayout>
+
+</RelativeLayout>

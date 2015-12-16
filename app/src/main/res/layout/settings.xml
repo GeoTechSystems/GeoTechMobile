@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="vertical" >
+
+	<TextView
+		android:id="@+id/text_settings_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/WFSlayer_layer_available_loading"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Switch
+		android:id="@+id/switch_settings_wfs_autosync"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/button_settings_wfs_test"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_switch_auto_sync"
+		android:textSize="@dimen/text_size_16dp" />
+
+	<TextView
+		android:id="@+id/text_settings_maps"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/switch_settings_wfs_autosync"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_settings_background_maps"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold" />
+
+	<Switch
+		android:id="@+id/switch_settings_maps_osm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/text_settings_maps"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_switch_openstreetmap"
+		android:textSize="@dimen/text_size_16dp" />
+
+	<Button
+		android:id="@+id/button_settings_wfs_test"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/text_wfs_serveraddress"
+		android:layout_centerHorizontal="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_button_test_connection"
+		android:textSize="@dimen/text_size_16dp" />
+
+	<TextView
+		android:id="@+id/text_wfs_serveraddress"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/text_settings_wfs_url"
+		android:layout_alignBottom="@+id/text_settings_wfs_url"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/text_settings_wfs_url"
+		android:ems="10" />
+
+	<TextView
+		android:id="@+id/text_settings_wfs_url"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@+id/text_settings_title"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_settings_url"
+		android:textSize="@dimen/text_size_16dp" />
+
+	<Button
+		android:id="@+id/button_settings_apply"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/button_back_to_addlayeractivity"
+		android:layout_alignBottom="@+id/button_back_to_addlayeractivity"
+		android:layout_marginLeft="53dp"
+		android:layout_toRightOf="@+id/button_settings_wfs_test"
+		android:text="@string/text_button_apply_changes" />
+
+	<Button
+		android:id="@+id/button_back_to_addlayeractivity"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="67dp"
+		android:layout_marginLeft="201dp"
+		android:layout_toRightOf="@+id/text_settings_wfs_url"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/text_button_back_to_addlayeractivity"
+		android:textSize="@dimen/text_size_16dp" />
+
+</RelativeLayout>

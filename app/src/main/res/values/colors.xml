@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_color">#33AADD</color>
+    <color name="button_text_black">#000000</color>
+    <color name="text_color">#888888</color>
+    <color name="text_color_blue">#33AADD</color>
+    <color name="line_color">#CCCCCC</color>
+    
+</resources>

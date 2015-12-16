@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.geotech.systems"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:description="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="de.geotech.systems.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.geotech.systems.layers.LayerViewActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.features.ElementSelectorActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.projects.ProjectManagerActivity"
+            android:label="@string/title_activity_addProjectActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.projects.AddProjectActivity"
+            android:label="@string/title_activity_addProjectActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.layers.LayerManagerActivity"
+            android:label="@string/title_activity_layerManagerActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.features.FeatureSelectActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.layers.AddLayerActivity"
+            android:label="@string/title_activity_addLayerActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.features.ElementFilterActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.features.FeatureDetailsActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="unused.connectionTest.SettingsActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.wfs.WFSLayerSelectorActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.editor.FeatureAttributesCreatorActivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+
+        <receiver
+            android:name="de.geotech.systems.utilities.NetworkStateReceiver"
+            android:permission="android.permission.ACCESS_NETWORK_STATE" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="de.geotech.systems.locking.LockWFSLayerActivity"
+            android:label="@string/title_activity_get_feature_with_lock" >
+        </activity>
+        <activity
+            android:name="de.geotech.systems.locking.LockedWFSManagerActivity"
+            android:label="@string/title_activity_locked_feature_editor" >
+        </activity>
+        <activity android:name="de.geotech.systems.layerTables.ExpiryPickerActivity" >
+        </activity>
+        <activity
+            android:name=".main.GeoTechMobileSettingsActivity"
+            android:label="@string/title_activity_geotechmobilesettingsactivity"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="unused.TestActivity"
+            android:label="@string/title_activity_test"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+    </application>
+
+</manifest>

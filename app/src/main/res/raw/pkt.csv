@@ -1,0 +1,50 @@
+OAR	name_oar	ATR_1	Name_1	ATR_2	Name_2	ATR_3	Name_3	TEXT
+51001	Turm	BWF 1001	Wasserturm					OA 51001   BWF 1001
+51001	Turm	BWF 1002	Kirchturm, Glockenturm					OA 51001   BWF 1002
+51001	Turm	BWF 1003	Aussichtsturm					OA 51001   BWF 1003
+51001	Turm	BWF 1005	Kühlturm					OA 51001   BWF 1005
+51001	Turm	BWF 1004	Kontrollturm					OA 51001   BWF 1004
+51001	Turm	BWF 1007	Feuerwachturm					OA 51001   BWF 1007
+51001	Turm	BWF 1006	Leuchtturm					OA 51001   BWF 1006
+51001	Turm	BWF 1009	Stadt-, Torturm					OA 51001   BWF 1009
+51001	Turm	BWF 1008	Sende-, Funkturm, Fernmeldeturm					OA 51001   BWF 1008
+51001	Turm	BWF 1010	Förderturm					OA 51001   BWF 1010
+51001	Turm	BWF 9998	Nach Quellenlage nicht zu spezifizieren					OA 51001   BWF 9998
+51001	Turm	BWF 9999	Sonstiges					OA 51001   BWF 9999
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1220	Windrad					OA 51002   BWF 1220
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1251	Freileitungsmast					OA 51002   BWF 1251
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1320	Schachtöffnung					OA 51002   BWF 1320
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1310	Stollenmundloch					OA 51002   BWF 1310
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1290	Schornstein, Schlot, Esse					OA 51002   BWF 1290
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1280	Radioteleskop					OA 51002   BWF 1280
+51004	Transportanlage	BWF 1103	Pumpe	PRO 1130	Wasser			OA 51004   BWF 1103   PRO 1130
+51004	Transportanlage	BWF 1103	Pumpe	PRO 1120	Gas			OA 51004   BWF 1103   PRO 1120
+51004	Transportanlage	BWF 1103	Pumpe	PRO 1110	Erdöl			OA 51004   BWF 1103   PRO 1110
+55001	Gewässermerkmal	ART 1620	Wasserfall					OA 55001   ART 1620
+55001	Gewässermerkmal	ART 1610	Quelle					OA 55001   ART 1610
+61005	Höhleneingang							OA 61005
+51002	Bauwerk oder Anlage für Industrie und Gewerbe	BWF 1260	Funkmast					OA 51002   BWF 1260
+51003	Vorratsbehälter, Speicherbauwerk	SPE 1130	Wasser					OA 51003   SPE 1130
+51003	Vorratsbehälter, Speicherbauwerk	BWF 1206	Gasometer					OA 51003   BWF 1206
+51003	Vorratsbehälter, Speicherbauwerk	BWF 1205	Tank					OA 51003   BWF 1205
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1640	Kellereingang					OA 51009   BWF 1640
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1760	Bildstock, Wegekreuz, Gipfelkreuz					OA 51009   BWF 1760
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1750	Denkmal, Denkstein, Standbild					OA 51009   BWF 1750
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1780	Brunnen					OA 51009   BWF 1780
+51009	Sonstiges Bauwerk oder sonstige Einrichtung	BWF 1781	Brunnen (Trinkwasserversorgung)					OA 51009   BWF 1781
+53002	Straßenverkehrsanlage	ART 2000	Furt					OA 53002   ART 2000
+53002	Straßenverkehrsanlage	ART 4000	Platz					OA 53002   ART 4000
+53002	Straßenverkehrsanlage	ART 3003	Anschlussstelle					OA 53002   ART 3003
+53002	Straßenverkehrsanlage	ART 3002	Dreieck					OA 53002   ART 3002
+53002	Straßenverkehrsanlage	ART 3001	Kreuz					OA 53002   ART 3001
+53002	Straßenverkehrsanlage	ART 3000	Autobahnknoten					OA 53002   ART 3000
+53004	Bahnverkehrsanlage	BFK 1010	Bahnhof					OA 53004   BFK 1010
+53004	Bahnverkehrsanlage	BFK 1030	Haltepunkt					OA 53004   BFK 1030
+53004	Bahnverkehrsanlage	BFK 1020	Haltestelle					OA 53004   BFK 1020
+53008	Einrichtungen für den Schiffsverkehr	ART 1410	Bake					OA 53008   ART 1410
+53008	Einrichtungen für den Schiffsverkehr	ART 1420	Leuchtfeuer					OA 53008   ART 1420
+53008	Einrichtungen für den Schiffsverkehr	ART 1430	Kilometerstein					OA 53008   ART 1430
+53008	Einrichtungen für den Schiffsverkehr	ART 1460	Anleger					OA 53008   ART 1460
+54001	Vegetationsmerkmal	BWS 1011	Nadelbaum					OA 54001   BWS 1011
+54001	Vegetationsmerkmal	BWS 1012	Laubbaum					OA 54001   BWS 1012
+61006	Felsen, Felsblock, Felsnadel							OA 61006

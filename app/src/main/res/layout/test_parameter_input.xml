@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<Spinner
+		android:id="@+id/test_spinner_layer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/test_edit_number"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/test_text_layer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/test_spinner_layer"
+		android:layout_alignBottom="@+id/test_spinner_layer"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="Layer: " />
+
+	<EditText
+		android:id="@+id/test_edit_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_spinner_layer"
+		android:layout_toRightOf="@+id/test_text_number"
+		android:ems="10"
+		android:inputType="number"
+		android:padding="@dimen/padding_medium" >
+
+		<requestFocus />
+	</EditText>
+
+	<TextView
+		android:id="@+id/test_text_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/test_edit_number"
+		android:layout_alignBottom="@+id/test_edit_number"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="@string/help_define_parameters_number" />
+
+	<EditText
+		android:id="@+id/test_edit_xmin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/test_edit_number"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_edit_number"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/test_text_x"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/test_edit_xmin"
+		android:layout_alignBottom="@+id/test_edit_xmin"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="X: " />
+
+	<EditText
+		android:id="@+id/test_edit_xmax"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/test_edit_xmin"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_edit_xmin"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" />
+
+	<EditText
+		android:id="@+id/test_edit_ymin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/test_edit_xmax"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_edit_xmax"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" />
+
+	<EditText
+		android:id="@+id/test_edit_ymax"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/test_edit_ymin"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_edit_ymin"
+		android:ems="10"
+		android:inputType="number|numberSigned|numberDecimal"
+		android:padding="@dimen/padding_medium" />
+
+	<TextView
+		android:id="@+id/test_text_y"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/test_edit_ymin"
+		android:layout_alignBottom="@+id/test_edit_ymin"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/padding_medium"
+		android:text="Y: " />
+
+	<Button
+		android:id="@+id/test_button_insert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/test_edit_ymax"
+		android:background="@color/button_color"
+		android:text="@string/help_define_parameters_insert"
+		android:textColor="@color/button_text" />
+
+</RelativeLayout>

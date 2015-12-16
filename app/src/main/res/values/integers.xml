@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="edittext_five_lines">5</integer>
+    <integer name="edittext_three_lines">3</integer>
+
+</resources>
