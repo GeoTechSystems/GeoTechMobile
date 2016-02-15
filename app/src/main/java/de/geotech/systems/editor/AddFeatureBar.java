@@ -143,9 +143,7 @@ public class AddFeatureBar{
 		this.drawingPanel = drawingPanel;
 		this.toolbarLayout = toolbarLayout;
 		this.currentProject =  ProjectHandler.getCurrentProject();
-		this.toolbarLayout.setGravity(Gravity.CENTER);
 		this.toolbarLayout.setShowDividers(LinearLayout.SHOW_DIVIDER_MIDDLE);
-		this.toolbarLayout.setDividerPadding(5);
 		this.toolbarLayout.setDividerDrawable(this.context.getResources()
 				.getDrawable(R.drawable.divider));
 		// set Animation

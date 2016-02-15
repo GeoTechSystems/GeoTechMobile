@@ -121,8 +121,7 @@ RadioGroup.OnCheckedChangeListener {
 	private void testWFSConnection() {
 		TestConnectionTask test = new TestConnectionTask(this);
 		if (!wmsOn) {
-			test.execute(Functions.reviseWfsUrl(serverLists
-					.getCurrentServerAddress()));
+			test.execute(Functions.reviseWfsUrl(serverLists.getCurrentServerAddress()));
 		} else if (wmsOn) {
 			test.execute(Functions.reviseWmsUrl(serverLists
 					.getCurrentServerAddress()));
