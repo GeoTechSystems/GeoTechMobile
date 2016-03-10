@@ -320,6 +320,7 @@
 	<string name="feature_is_not_done">Feature wurde noch nicht erledigt.</string>
 	<string name="feature_is_done">Feature ist erledigt.</string>
 	<string name="kriging">Kriging</string>
+	<string name="vehicle">Vehicle</string>
 
 
 	<string-array name="wfs_layer_columns">
@@ -359,6 +360,7 @@
 		<item>new_</item>
 		<item>navi</item>
 		<item>kriging</item>
+		<item>vehicle</item>
 		<!-- 		<item>edit</item> -->
 	</string-array>
 

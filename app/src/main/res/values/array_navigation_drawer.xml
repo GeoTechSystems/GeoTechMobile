@@ -15,7 +15,7 @@
 		<item>new_</item>
 		<item>navi</item>
 		<item>kriging</item>
-		<item>vehicle device mode</item>
+		<item>vehicle</item>
 <!-- 		<item>edit</item> -->
 	</string-array>
 	<array name="ns_menu_items_icon">
@@ -31,6 +31,7 @@
 		<item>ic_zoom7</item>
 		<item>ic_menu_editor_new</item>
 		<item>ic_navdraw_gps</item>
+		<item>interpolation</item>
 		<item>interpolation</item>
 <!-- 		<item>ic_menu_editor_new</item> -->
 	</array>

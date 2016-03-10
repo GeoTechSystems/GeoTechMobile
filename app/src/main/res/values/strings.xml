@@ -69,6 +69,7 @@
 	<string name="addLayerTable_features_column_type">Type</string>
 	<string name="expiry_picker_selectedDate">Lock until:</string>
 	<string name="kriging">Kriging</string>
+	<string name="vehicle">Vehicle</string>
 	<string name="delta">Accuracy</string>
 
 

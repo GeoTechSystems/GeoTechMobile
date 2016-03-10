@@ -231,16 +231,6 @@ public class WFSLayerSynchronization {
 				if (!feature.isSync()) {
 					currentWFSVersion = WFS_VERSION_100;
 					geoServerID = feature.getGeoServerID();
-					// getting xml transaction statement
-//					if (feature.getFeatureType() == WFSLayer.LAYER_TYPE_POLYGON) {
-//						currentWFSVersion = WFS_VERSION_100;
-//						xmlStatement = old(feature, wfsLayer);
-//						Log.e(CLASSTAG, "Sent OLD XML Transaction Request: \n" + xmlStatement);
-//					} else  {
-//						currentWFSVersion = WFS_VERSION_100;
-//						xmlStatement = transactionXMLString(feature, wfsLayer);
-//						Log.e(CLASSTAG, "Sent XML Transaction Request: \n" + xmlStatement);
-//					}
 					xmlStatement = transactionXMLString(feature, wfsLayer);
 					Log.i(CLASSTAG, "Sent XML Transaction Request: \n" + xmlStatement);
 					// Sending HTTP request
