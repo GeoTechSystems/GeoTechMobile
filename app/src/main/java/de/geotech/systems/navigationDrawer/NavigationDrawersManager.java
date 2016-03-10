@@ -370,7 +370,8 @@ public class NavigationDrawersManager {
 			});
 			test.show();*/
 			break;
-		
+			case 5:
+				new VehicleDeviceTrigger();
 		//		case 5: {
 		//			// Position 5 im Array: Bearbeite Feature-Button
 		//			if (project != null) {

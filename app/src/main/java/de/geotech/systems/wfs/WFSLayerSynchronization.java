@@ -215,8 +215,6 @@ public class WFSLayerSynchronization {
 		/**
 		 * Exports new features of a certain layer.
 		 * 
-		 * @param db
-		 * @param layerId
 		 * @return booleean, false if it created an error
 		 * @throws ParseException
 		 */
@@ -373,7 +371,7 @@ public class WFSLayerSynchronization {
 
 		private String getUpdateKeyValueBody(Feature feature, WFSLayer layer) {
 			String gmlBody = getGML2Body(feature, layer);
-			String gmlUpdate = "<" + layer.getWorkspace() + ":Name>" + "the_geom" + "</" + layer.getWorkspace() + ":Name>" 
+			String gmlUpdate = "<" + layer.getWorkspace() + ":Name>" + layer.getGeometryColumn() + "</" + layer.getWorkspace() + ":Name>"
 					+ "<" + layer.getWorkspace() + ":Value>" + gmlBody + "</" + layer.getWorkspace() + ":Value>";
 			String xmlUpdatepropertyHeader = "<wfs:Property>"; 
 			String xmlUpdatePropertyFooter = "</wfs:Property>" + "\n";

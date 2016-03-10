@@ -15,6 +15,7 @@
 		<item>new_</item>
 		<item>navi</item>
 		<item>kriging</item>
+		<item>vehicle device mode</item>
 <!-- 		<item>edit</item> -->
 	</string-array>
 	<array name="ns_menu_items_icon">
