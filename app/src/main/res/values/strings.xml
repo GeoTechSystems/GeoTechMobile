@@ -263,7 +263,7 @@
 	<string name="testconnectiontask_MalformedURLException">. This issue seems to result from a malformed URL.\n\n</string>
 	<string name="testconnectiontask_ParserConfigurationException">. This issue seems to result from a bad parser configuration.\n\n</string>
 	<string name="testconnectiontask_SAXException">. This issue seems to result from an error of the WFS/WMS parsing (maybe the XML content of the WFS/WMS is broken).\n\n</string>
-	<string name="testconnectiontask_IOException"> A problem with the input/output connection occured. The reason might be an incorrect server address. Please check the server address.\t</string>
+	<string name="testconnectiontask_IOException"> A problem with the input/output connection occured. The reason might be an incorrect server address. Please check the server address: </string>
 	<string name="testconnectiontask_ready_dialog_part1">Connection successful. \n\n</string>
 	<string name="testconnectiontask_ready_dialog_part2">Tested serveraddress: \n</string>
 	<string name="testconnectiontask_ready_dialog_part3">\n\nServer information: \n</string>

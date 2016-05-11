@@ -57,8 +57,8 @@ public class Server {
 	 */
 	public Server(String url, String username, String password, String serverName) {
 		this.serverName = serverName;
-		this.url = url;
-		this.revisedURL = this.reviseUrl(url);
+		this.url = url.trim().toLowerCase();
+		this.revisedURL = reviseUrl(url.trim().toLowerCase());
 		if (username != null && !username.equals("")) {
 			this.username = username;
 			this.password = password;
@@ -173,7 +173,7 @@ public class Server {
 	 */
 	private String reviseUrl(String url) {
 		url = url.trim();
-		if (!url.startsWith("http")) {
+		if (!url.startsWith("http://")) {
 			url = "http://" + url;
 		}
 		return url;

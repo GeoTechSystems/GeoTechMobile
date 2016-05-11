@@ -126,12 +126,9 @@ public class ServerSpinner<T> {
 	 * @param newServer the new server
 	 */
 	public void addNEWServer(Server newServer) {
-		// add server address to list + file of wms or wfs list + file
-		if (newServer.getName() == "") {
-			this.serverURLList.add(0, newServer.getUrl());
-		} else {
-			this.serverURLList.add(0, newServer.getName() + " (" + newServer.getUrl() + ")");
-		}
+
+		this.serverURLList.add(0, newServer.getUrl());
+
 		this.currentServerAddress = this.serverURLList.get(0);
 		// add to projecthandler and db
 		ProjectHandler.addServer(context, newServer);
